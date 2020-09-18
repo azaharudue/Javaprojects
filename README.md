@@ -1,2 +1,2 @@
 # Javaprojects
-Some code projects 
+Some java code projects 
