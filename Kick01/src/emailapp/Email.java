@@ -42,6 +42,7 @@ public class Email {
 		System.out.println("Department codes:\n1 for sale. \n2 for Development \n3 for Accounting\n0 for none\nEnter the department code:");
 		Scanner in= new Scanner(System.in);
 		int depChoice = in.nextInt();
+		in.close();
 		if (depChoice==1) {return "sal";}
 		else if (depChoice == 2) {return "dev";}
 		else if (depChoice == 3) { return "acc";}
