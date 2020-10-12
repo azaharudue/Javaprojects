@@ -12,7 +12,7 @@ public class Student {
 	private int tutionBalance;
 	private static int costOfSemesterFee = 319;
 	private String matriculationNo;
-	private static int id= 305000;
+	private static long id= 3056000;
 	
 	
 	
@@ -53,7 +53,7 @@ public class Student {
 	// Generate Matriculation Number
 	private void setMatriculationNo() {
 		id++;
-		this.matriculationNo = gradeSemester + " " + id; 
+		this.matriculationNo = gradeSemester + "-" + id; 
 	}
 	
 	//Enroll in Courses 

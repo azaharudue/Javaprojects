@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27d1d26a-f9d0-49ca-9ab3-b8a4a05ab59b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javaprojects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/LIESMICH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/settings.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/Utils/ClobToStringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/Utils/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/Utils/ResultSetToListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/Utils/settings.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/constant/DBConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/domain/Adv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/domain/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/domain/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/domain/Kommentar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/AdvBuyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/AdvCreateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/AdvDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/AdvDetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/AdvEditServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/AdvFillterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/AdvSortSevlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/AfterBuyHandleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/ChatServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/CommentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/InseratorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/LoginSevelet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/ShopServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/stores/AdvStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/stores/BuyRecordStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/stores/CategorieStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/stores/ChatStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/stores/CommentStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/stores/StoreException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/java/stores/UserStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/advDetail.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/chat.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/createAd.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/editAd.BAK.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/editAd.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/hello.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/inserator.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/shop.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/userProfile.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/main-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/css/ytplayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/blog/author-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/blog/author-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/blog/latest-news-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/blog/latest-news-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/blog/latest-news-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/breadcrumps-back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/choose-right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/client-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/custom-icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/custom-icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/custom-icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/footer-back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/footer-girl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/icon-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/partner-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/partner-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/partner-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/partner-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/paypal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/cart-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/cart-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/david.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/product-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/product-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/product-single-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/product-style-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/product-style-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/product-style-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/small-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/small-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/small-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/products/small-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/service-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/service-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/service-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/service-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/slider/slider-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/team/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/team/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/team/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/team/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/team/team-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/team/team-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/team/team-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/team/team-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/images/wc-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/appear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/gmap3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/instagram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/jquery.dcjqaccordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/jquery.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/jquery.ytplayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/customoptions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/img/browser-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/img/features-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/img/icoDownload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/img/jquery.minicolors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/jquery.selectric.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/jquery.selectric.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/lib/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/lib/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/lib/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/lib/jquery.minicolors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/lib/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/lib/prism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/plugins/jquery.selectric.addNew.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/plugins/jquery.selectric.addNew.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/plugins/jquery.selectric.addNew.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/plugins/jquery.selectric.placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/plugins/jquery.selectric.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/share.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/flat-dark-blue/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/flat-light-blue/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/flat-marsala/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/flat-radiant-orchid/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/flat-red/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/modern-v2/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/modern/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/plus/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/square/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/public/themes/template/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/flat-dark-blue/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/flat-light-blue/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/flat-marsala/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/flat-radiant-orchid/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/flat-red/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/modern-v2/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/modern/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/plus/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/square/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/src/main/webapp/themes/template/selectric.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webStore/webStore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Javaprojects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kick01/src/studentdbapp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kick01/src/studentdbapp/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kick01/src/studentdbapp/StudentDBApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kick01/src/studentdbapp/StudentDBApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\Softwares\IntelliJ IDEA Community Edition 2019.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iihQYDkCcA3LKvGXKRCbRBQbTU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fundingProject" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\KickStartCode\Javaprojects\fundingProject\src\main\resources\webapp" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JettyRunner-By-GuiKeller" factoryName="Jetty Runner" nameIsGenerated="true">
+      <option name="JettyRunnerV130-SelectedModuleName" value="Javaprojects" />
+      <option name="JettyRunnerV130-WebAppPath" value="/Javaprojects" />
+      <option name="JettyRunnerV130-WebAppFolder" value="H:\KickStartCode\Javaprojects\webStore\src\main\webapp" />
+      <option name="JettyRunnerV130-ClassesDirectory" value="../fundingProject" />
+      <option name="JettyRunnerV130-RunOnPort" value="8080" />
+      <option name="JettyRunnerV130-JettyRunnerPath" value="C:\Users\Azahar Hossain\Downloads\jetty-runner-10.0.0-alpha0.jar" />
+      <option name="JettyRunnerV130-JettyXML" value="" />
+      <option name="JettyRunnerV130-VmArgs" value="" />
+      <option name="JettyRunnerV130-PassParentEnvVars" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JettyRunner-By-GuiKeller" factoryName="Jetty Runner">
+      <option name="JettyRunnerV130-SelectedModuleName" value="&lt;all modules&gt;" />
+      <option name="JettyRunnerV130-WebAppPath" value="/Javaprojects" />
+      <option name="JettyRunnerV130-WebAppFolder" value="H:\KickStartCode\Javaprojects\webStore\src\main\webapp" />
+      <option name="JettyRunnerV130-ClassesDirectory" value="" />
+      <option name="JettyRunnerV130-RunOnPort" value="8080" />
+      <option name="JettyRunnerV130-JettyRunnerPath" value="C:\Users\Azahar Hossain\Downloads\jetty-runner-10.0.0-alpha0.jar" />
+      <option name="JettyRunnerV130-JettyXML" value="" />
+      <option name="JettyRunnerV130-VmArgs" value="" />
+      <option name="JettyRunnerV130-PassParentEnvVars" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/fundingProject" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27d1d26a-f9d0-49ca-9ab3-b8a4a05ab59b" name="Default Changelist" comment="" />
+      <created>1602396303919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602396303919</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="274" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602400941752">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="274" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602400941752" />
+    <state x="357" y="87" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1602398305587">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="357" y="87" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602398305587" />
+    <state x="363" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602396381857">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="363" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602396381857" />
+    <state x="600" y="140" key="FileChooserDialogImpl" timestamp="1602400351947">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="600" y="140" key="FileChooserDialogImpl/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602400351947" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1602400989884">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602400989884" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1602400989884">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602400989884" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1602400989884">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602400989884" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1602400989884">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602400989884" />
+    <state x="263" y="133" key="IDE.errors.dialog" timestamp="1602397431156">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="263" y="133" key="IDE.errors.dialog/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602397431156" />
+    <state x="339" y="180" width="672" height="677" key="run.anything.popup" timestamp="1602400599586">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="339" y="180" width="672" height="677" key="run.anything.popup/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602400599586" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602400792659">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.30.1366.738/1366.0.1280.994@0.30.1366.738" timestamp="1602400792659" />
+  </component>
+</project>
